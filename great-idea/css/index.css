@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5 {
     background-color: navy;
     z-index: 9999;
     justify-content: flex-end;
+    top: 0px;
 }
 
 nav {
@@ -119,14 +120,14 @@ nav {
 }
 
 .title {
-    display:inline-block;
+    display:flex;
     font-size: 500%;
     text-align: center;
     margin-top: 120px;
 }
 
 .pic1 {
-    display:inline-block;
+    display:flex;
     margin-top: 100px;
     position: absolute; right: 200px; top: 0px;
     margin-bottom: 400px;
@@ -137,47 +138,42 @@ h1 {
     width: 30%;
 }
 
+.upperBlurbs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    width: 100%;
+    justify-content: flex-end;
+}
+
 div .class1 {
-    display: inline-block;
-    width: 43%;
-    margin-left: 130px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    display: flex;
+    width: 44%;
     font-size:115%;
-    /* margin-right:  */
+    flex-flow: column;
 }
-
-div .class3 {
-    display: inline-block;
-    width: 43%;
-    font-size:115%;
-}
-
-/* p {
-    display: inline-block;
-    width: 50%;
-} */
 
 .middle-img {
     margin-left: 130px;
 }
 
 div .middlesection {
-	margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 div .class2 {
-    display:inline-block;
-    width: 25%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 0px;
-    font-size: 115%;
-    margin-right: 70px;
+    display: flex;
+    width: 29%;
+    font-size:115%;
+    flex-flow: column;
 }
 
 div .spacing {
-    display: inline-block;
+    display: flex;
     margin: 10px;
     margin-left: 0px;
     text-align:left;
@@ -185,24 +181,25 @@ div .spacing {
 }
 
 div .s2 {
-    display: inline-block;
+    display: flex;
     margin-bottom: 10px;
     margin-left: 0px;
     text-align:left;
 }
 
 .ci {
-    display:inline-block;
+    display:flex;
     margin-left: 130px;
     font-size: 110%;
+    flex-flow: column;
 }
 
 div .copyright {
-    display:inline-block;
+    display:flex;
     width: 100%;
     margin-top: 100px;
-    text-align: center;
-	margin-bottom: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
 }
 
 .navclass {
@@ -228,7 +225,6 @@ div .copyright {
 .services-information {
 	display: flex;
 	height: 150px;
-	/* align-items: center;  */
 	margin-top: 25px;
 }
 
@@ -288,17 +284,12 @@ ul {
 }
 
 .learn-more {
-	display: inline-block;
-    /* Margin: 20px; */
-    /* padding: 5px 20px; */
+	display: flex;
     border: 2px solid black;
-    /* padding-right: 30px;
-    padding-left: 30px;  */
     color: black;
     height: 25px;
     width: 150px !important;
-    /* padding-top: 15px; */
-    text-align: center;
+    justify-content: center;
 	text-decoration: none;
 	margin-top: 10px;
 	margin-bottom: 10px;
