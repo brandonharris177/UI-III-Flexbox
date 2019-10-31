@@ -71,24 +71,37 @@ h1, h2, h3, h4, h5 {
     /* border: 1px solid gray; */
 }
 
+.navAndLogo {
+    width: 82%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: navy;
+    z-index: 9999;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 .toolbar {
-    margin: 30px;
+    margin-top: 1%;
+    margin-right: 30px;
     color:lightgray;
     text-decoration: none;
 }
 
-.logo {
-    display: inline-block;
-}
-
 #startbutton {
-    display: inline-block;
+    display: flex;
     Margin: 20px;
     padding: 5px 20px;
     border: 2px solid black;
     margin-left: 200px;
-    padding-right: 30px;
-    padding-left: 30px; 
+    padding-right: 0px;
+    padding-left: 35px; 
     color: black;
     /* font-size: 25%; */
     height: 50px;
@@ -97,13 +110,7 @@ h1, h2, h3, h4, h5 {
     text-align: center;
     margin-bottom: 70px;
     text-decoration: none;
-}
-
-nav {
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 100px;
-    text-decoration: none;
+    font-weight: bold;
 }
 
 .titlediv {
